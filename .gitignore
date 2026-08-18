@@ -1,0 +1,38 @@
+﻿# Modelos de IA
+*.onnx
+AI-onnx/*.onnx
+
+# Videos
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.flv
+Video para upscaling/*
+
+# Frames exportados
+*.jpg
+*.jpeg
+*.jfif
+*.png
+!Assets/*.png
+
+# Binarios pesados
+Assets/ffmpeg.exe
+*.exe
+
+# Ambientes virtuais e Cache Python
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs e arquivos temporarios
+*.log
+log_startup.txt
+.DS_Store
+Thumbs.db
