@@ -16,3 +16,7 @@ psutil>=5.9.0
 
 # Optional Desktop GUI (Windows only)
 customtkinter; sys_platform == 'win32'
+
+# Render / Server deployment
+gunicorn>=22.0.0
+a2wsgi>=1.10.0
