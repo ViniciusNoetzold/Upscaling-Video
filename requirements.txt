@@ -1,13 +1,18 @@
-#AI
-onnxruntime-directml==1.24.4
-numpy
+# Core AI & Runtime
+onnxruntime>=1.18.0; sys_platform != 'win32'
+onnxruntime-directml>=1.18.0; sys_platform == 'win32'
+numpy>=1.24.0
 
-#GUI
-customtkinter
+# Web Application
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
 
-#UTILS
-opencv-python-headless
-Pillow
-natsort
-psutil
-pyinstaller==6.19.0
+# Image & Video Processing
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+natsort>=8.4.0
+psutil>=5.9.0
+
+# Optional Desktop GUI (Windows only)
+customtkinter; sys_platform == 'win32'

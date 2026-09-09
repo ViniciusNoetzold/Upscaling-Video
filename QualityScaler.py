@@ -144,10 +144,10 @@ def find_by_relative_path(relative_path: str) -> str:
 
 
 
-app_name   = "QualityScaler"
+app_name   = "QualityScaler AI - Mezzold Studio"
 version    = "2026.2"
-githubme   = "https://github.com/Djdefrag/QualityScaler/releases"
-telegramme = "https://linktr.ee/j3ngystudio"
+githubme   = "https://mezzoldstudio.com.br/"
+telegramme = "https://mezzoldstudio.com.br/"
 
 app_name_color          = "#F274EE"
 background_color        = "#000000"

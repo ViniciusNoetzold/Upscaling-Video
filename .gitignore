@@ -1,4 +1,4 @@
-﻿# Modelos de IA
+# Modelos de IA
 *.onnx
 AI-onnx/*.onnx
 
@@ -17,6 +17,12 @@ Video para upscaling/*
 *.jfif
 *.png
 !Assets/*.png
+!static/*.png
+!static/*.ico
+
+# Temporary uploads and outputs
+temp_uploads/
+temp_outputs/
 
 # Binarios pesados
 Assets/ffmpeg.exe
